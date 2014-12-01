@@ -18,7 +18,7 @@
   
   var span = $('.time');
   
-  
+
   var refresh = function(){
     span.empty();
     var now = moment();
@@ -41,6 +41,8 @@
       span.append(time.seconds + seconds);
     }
   };
+
+  refresh();
 
   setInterval(refresh,1000);
   </script>
