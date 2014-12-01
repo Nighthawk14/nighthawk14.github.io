@@ -33,11 +33,11 @@
       span.append(time.hours + hours + ' ');
     }
     if(time.minutes && parseInt(time.minutes) !== 0){
-      var minutes = (parseInt(time.minutes) > 1) ? ' minutes' : 'minute';
+      var minutes = (parseInt(time.minutes) > 1) ? ' minutes' : ' minute';
       span.append(time.minutes + minutes + ' ');
     }
     if(time.seconds && parseInt(time.seconds) !== 0){
-      var seconds = (parseInt(time.seconds) > 1) ? ' seconds' : 'second';
+      var seconds = (parseInt(time.seconds) > 1) ? ' seconds' : ' second';
       span.append(time.seconds + seconds);
     }
   };
